@@ -14,7 +14,7 @@ function App() {
    return (
       <div className="App">
          <h1 className="font-bold p-4 text-3xl">{message}</h1>
-         <Button>Click me</Button>
+         <Button>Click me!</Button>
       </div>
    );
 }
