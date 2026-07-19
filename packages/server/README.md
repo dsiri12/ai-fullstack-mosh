@@ -1,3 +1,28 @@
+Whenever schema.prisma updated, run 2 commands:
+$ bunx prisma migrate dev
+$ bunx prisma generate
+
+for bun, re-install all:
+---
+
+rm -rf generated
+rm -rf node_modules
+rm bun.lock
+
+bun install
+bunx prisma generate
+
+---
+
+for npm, re-install all:
+----
+
+rm -rf node_modules
+rm package-lock.json
+npm install
+
+--
+
 # server
 
 To install dependencies:
