@@ -23,6 +23,8 @@ npm install
 
 --
 
+https://react-icons.github.io/react-icons/search/#q=sparkles
+
 # server
 
 To install dependencies:

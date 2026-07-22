@@ -17,7 +17,7 @@ export const reviewRepository = {
       const data = {
          content: summary,
          expiresAt,
-         generatedAt: now,
+         createdAt: now,
          productId,
       };
 
